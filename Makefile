@@ -2,7 +2,7 @@ build:
 	git pull
 	docker build -t local/runner .
 
-
+#creation or runners using docker image local/runner
 run:
 	sudo chmod o+rw /var/run/docker.sock
 	git pull
